@@ -11,7 +11,7 @@ import org.servel.db.DB;
 public class Main {
 
     public static void main(String[] args) throws FileNotFoundException, ClassNotFoundException, SQLException {
-        // java -jar C:\Users\svelescu\.m2\repository\org\servel\OraPostgrMySql\1.0\OraPostgrMySql-1.0-jar-with-dependencies.jar C:\work\NetBeansProjects/dbconfig.txt
+        // java -jar C:\Users\svelescu\.m2\repository\org\servel\OraPostgrMySql\1.0\OraPostgrMySql-1.0-jar-with-dependencies.jar C:\work\NetBeansProjects\OraPostgrMySql\dbconfig.txt
         for (String arg : args) {
             System.out.println("Config File=" + args[0]);
         }

@@ -67,7 +67,7 @@ public class DB {
     }
 
     public void start() {
-        Select[] selectTgreads = new Select[insertCon.length];
+        Select[] selectTgreads = new Select[selectCon.length];
         for (int i = 0; i < selectCon.length; i++) {
             selectTgreads[i] = new  Select(selectCon[i], i, durationMin);
             selectTgreads[i].start();
