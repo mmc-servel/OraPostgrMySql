@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.servel</groupId>
     <artifactId>OraPostgrMySql</artifactId>
-    <version>1.0</version>
+    <version>1.0.0.1</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -27,6 +27,11 @@
             <artifactId>postgresql</artifactId>
             <version>42.2.6</version>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.32</version>
+        </dependency>        
     </dependencies>    
     <build>
         <plugins>

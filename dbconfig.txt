@@ -1,18 +1,23 @@
 {
-	"rdbms":"postgres",
+	"rdbms":"oracle",
 	"parrallel_select":"8",
 	"parrallel_insert":"8",
 	"parrallel_update":"4",
 	"parrallel_delete":"1",
 	"duration_min":"5",
 	"postgres":{
-		"conn_str":"jdbc:postgresql://192.168.0.101:5432/ehk",
-		"user":"ehk",
-		"pass":"POIqwe#123"
+		"conn_str":"jdbc:postgresql://192.168.0.101:5432/db01",
+		"user":"user01",
+		"pass":"xxxzzz111"
 	},
 	"oracle":{
-		"conn_str":"jdbc:oracle:thin:@192.168.0.101:1521/pdb1",
-		"user":"aq_admin",
-		"pass":"aq_admin"
-	}	
+		"conn_str":"jdbc:oracle:thin:@192.168.0.101:1521/pdb01",
+		"user":"user01",
+		"pass":"xxxzzz111"
+	},
+	"mysql":{
+		"conn_str":"jdbc:mysql://192.168.0.101:3306/mydb",
+		"user":"user01",
+		"pass":"xxxzzz123"
+	}		
 }
